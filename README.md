@@ -1,4 +1,4 @@
-![alt text](https://github.com/BhaveshGupta07/personalportfolio/blob/main/PersonalPortfolio/src/assets/portfolio.jpg?raw=true)
+![alt text](https://github.com/BhaveshGupta07/personalportfolio/blob/main/PersonalPortfolio/src/assets/Screenshot%202024-10-14%20150735.jpg?raw=true)
 
 
 # Personal Portfolio
