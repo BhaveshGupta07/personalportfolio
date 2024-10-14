@@ -1,11 +1,20 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I’m a passionate AI-Enabled full-stack developer with a knack for whipping up robust and scalable web applications—like a chef who can both cook a gourmet .
+
+My ultimate goal? To create applications that not only drive business growth but also deliver user experiences so delightful that users will think they’ve stumbled into a tech wonderland!
+
+So, whether I'm squashing bugs or debugging the universe, you can count on me to bring a little fun and a lot of functionality to the tech table!.`;
+
+export const ABOUT_TEXT = `Hola Amigos,I’m Bhavesh Gupta, a passionate technology enthusiast with a strong background in cloud computing, machine learning, Web development and software development. My skills include Python, Java, AI, and MERN stack development, making me a versatile programmer.
+
+I’m a proud AWS Certified Cloud practitioner and Oracle Certified, reflecting my commitment to professional growth.
+
+In addition to my technical abilities, I have strong communication and presentation skills. I enjoy collaborating with teams and managing various aspects of project management.
+
+Outside of work, I have a variety of interests, including cooking, gaming, camping, and hiking. My love for adventure complements my bright and confident personality.
+
+I aim to become a AI enabled full-stack developer and I’m currently focused on mastering HTML, CSS, JavaScript, and related frameworks. I’m determined to make a significant impact in the tech industry, continually seeking new challenges and opportunities to grow.`;
 
 export const EDUCATIONS = [
   {
@@ -55,36 +64,7 @@ export const EDUCATIONS = [
   },
 ];
 
-export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
+
 
 export const CONTACT = {
   address: "230/18a Mandawali, East Delhi, DL 110092 ",

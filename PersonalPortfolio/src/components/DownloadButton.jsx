@@ -47,13 +47,13 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    width: '100%', // Makes sure the thumbnail covers the entire width
+    width: '100%', 
   },
   thumbnail: {
     position: 'absolute',
-    width: '300px', // Adjust as per the size of your thumbnail
-    height: '400px', // Adjust as per the size of your thumbnail
-    backgroundColor: 'rgba(0, 0, 0, 0.3)', // A transparent black overlay for the background
+    width: '300px', 
+    height: '400px', 
+    backgroundColor: 'rgba(0, 0, 0, 0.3)', 
     borderRadius: '8px',
     overflow: 'hidden',
     zIndex: 1,
@@ -61,15 +61,15 @@ const styles = {
   thumbnailImage: {
     width: '100%',
     height: '100%',
-    objectFit: 'cover', // Make sure the image fills the div correctly
-    opacity: 0.8, // Semi-transparent effect for the thumbnail
+    objectFit: 'cover', 
+    opacity: 0.8, 
   },
   button: {
-    zIndex: 2, // Ensure the button is above the thumbnail
+    zIndex: 2, 
     display: 'flex',
     alignItems: 'center',
     padding: '12px 24px',
-    background: 'linear-gradient(135deg, #6e45e2, #88d3ce)', // Gradient background
+    background: 'linear-gradient(135deg, #6e45e2, #88d3ce)', 
     color: 'white',
     textDecoration: 'none',
     fontSize: '18px',

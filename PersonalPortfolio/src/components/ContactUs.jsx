@@ -102,7 +102,7 @@ const styles = {
   title: {
     fontSize: '28px',
     fontWeight: 'bold',
-    color: 'blue',
+    color: '#0063bf',
     textAlign: 'center',
     marginBottom: '20px',
   },

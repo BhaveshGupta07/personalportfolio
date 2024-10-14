@@ -8,6 +8,7 @@ import Contact from './components/Contact'
 import MouseAnimation from "./MouseAnimation";
 import DownloadButton from './components/DownloadButton'
 import ContactUs from './components/ContactUs'
+import { HorizontalCardStack } from './components/HorizontalCard'
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900" >
@@ -22,6 +23,7 @@ const App = () => {
     <About/>
     <Technology/>
     <Education/>
+    <HorizontalCardStack/>
     <DownloadButton/>
     <ContactUs/>
     <Contact/>
