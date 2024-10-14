@@ -13,7 +13,7 @@ const DownloadButton = () => {
       transition={{opacity: 0.5}}
       style={styles.thumbnail}>
         <img
-          src="src/assets/back.jpg" 
+          src="https://i.ibb.co/wd52gCq/back.jpg" 
           alt="Resume Thumbnail"
           style={styles.thumbnailImage}
         />
@@ -24,7 +24,7 @@ const DownloadButton = () => {
       whileInView={{opacity: 1,x:0}}
       initial={{opacity: 0,x:100}}
       transition={{opacity: 0.5}}
-        href="src/assets/Bhaveshcv.pdf"  
+        href="https://drive.google.com/file/d/12We8BmokbBJt97MRX82adPEg69DTLWfk/view?usp=sharing"  
         download
         style={{
           ...styles.button,
@@ -34,7 +34,7 @@ const DownloadButton = () => {
         onMouseLeave={() => setIsHovered(false)}
       >
         <FaDownload style={styles.icon} />
-        Download Resume
+        Resume
       </motion.a>
     </div>
   );
